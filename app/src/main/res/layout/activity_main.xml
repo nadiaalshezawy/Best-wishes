@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5EEF8"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/androidparty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/street" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="36sp"
+        android:fontFamily="serif"
+        android:textColor="#EFF5F2"
+        android:textStyle="italic"
+        android:text="Best Wishes"
+        android:shadowColor="#AFE1D7  "
+        android:shadowRadius="10"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:fontFamily="serif"
+        android:textColor="#EFF5F2"
+        android:textStyle="italic"
+        android:text="from"
+        android:shadowColor="#AFE1D7  "
+        android:shadowRadius="10"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:paddingBottom="60dp"
+        android:text="Nadia Al shezawy"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:textColor="#EFF5F2  "
+        android:textSize="24sp"
+        android:shadowColor="#AFE1D7  "
+        android:shadowRadius="10"/>
+</RelativeLayout>
